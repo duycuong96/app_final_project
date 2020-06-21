@@ -147,7 +147,10 @@ class BeritaTerbaru extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return buildHeader(title: 'Các salon tóc', desc: 'ádasd', onPressedAction: () => Navigator.pushNamed(context, '/news'));
+    return buildHeader(
+        title: 'Các salon tóc',
+        desc: 'ádasd',
+        onPressedAction: () => Navigator.pushNamed(context, '/news'));
   }
 }
 
@@ -415,7 +418,7 @@ Widget buildHeader({String title, String desc = '', Function onPressedAction}) {
           ? Container()
           : OutlineButton(
               onPressed: onPressedAction,
-              child: Text("Đặt lịch"),
+              child: Text("Đặt lịch s"),
               color: deepBlue,
               textColor: Colors.purple,
               highlightedBorderColor: deepBlue,

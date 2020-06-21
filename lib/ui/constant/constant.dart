@@ -5,6 +5,8 @@ const Color midPurple = Color(0xff7829B0);
 const Color midPink = Color(0xffB51F89);
 const Color txtPink = Color(0xffF65C8C);
 const Color white = Colors.white;
+const kPrimaryColor = Color(0xFF6F35A5);
+const kPrimaryLightColor = Color(0xFFF1E6FF);
 
 // Daftar Daerah Terdampak
 final List<String> listRegion = [
